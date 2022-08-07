@@ -1,0 +1,67 @@
+.header
+    margin: 0
+    padding: 0
+    // background: $green
+    @include height(70px)
+    img
+        @include height(35px)
+        margin: 37px 0 0 0
+    ul
+        float: right
+        margin: 50px 0 0 0
+        li
+            float: left
+            list-style: none
+            a
+                text-decoration: none
+                font-family: $body-font
+                letter-spacing: 5px
+                text-transform: uppercase
+                color: $grey
+                padding: 0 15px
+                font-size: 1.4em
+                &:hover
+                    color: $blue
+.banner
+    h1, h2
+        color: $grey
+
+    h2
+        font-family: $body-font
+        font-size: 1.4em
+        text-transform: uppercase
+        letter-spacing: 5px
+        margin: 190px 0 0 0
+        padding: 0
+
+    h1
+        font-family: $main-font
+        font-size: 4.8em
+        font-weight: 600
+        line-height: 1.5em
+        letter-spacing: 3px
+        margin: 0
+        padding: 0
+        span
+            font-style: italic
+            font-weight: 400
+            color: $mint
+    i
+        font-size: 4em
+        color: $grey
+        margin: 110px 0 0 0
+        border: 2px solid $grey
+        padding: 10px 12px
+        @include radius(50%)
+        &:hover
+            color: $blue
+            border: 2px solid $blue
+            
+.background
+    width: 100%
+    @include height(670px)
+    background:
+        image: url("/web/img/background.jpg")
+        position: 0,0
+        repeat: no-repeat
+        size: cover

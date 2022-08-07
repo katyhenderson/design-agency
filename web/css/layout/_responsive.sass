@@ -1,0 +1,341 @@
+// Large Desktop - Design Width = 1300px
+// ========================================================
+
+@media only screen and (min-width: 1300px) and (max-width: 1487px)
+
+// MacBook Screen - Design Width = 1280px
+// ========================================================
+
+@media only screen and (min-width: 1025px) and (max-width: 1299px) 
+    .contents
+        max-width: 1000px
+    
+    .blog
+        .flex_row
+            .flex
+                p
+                    font-size: 1.2em
+
+    .contact
+        .flex_row
+            .flex-2
+                input#name, input#email
+                    margin: 118px 10px 0 0
+                    width: 42%
+                input#title, textarea
+                    width: 91.9%
+
+// iPad/Tablet (both) - Design Width = 768px
+// ========================================================
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) 
+
+    .contents
+        max-width: 800px
+
+    .numbers
+        .col-2
+            p
+                font-size: 1.2em
+                letter-spacing: 1px
+
+    .blog
+        .flex_row
+            .flex
+                a
+                    font-size: 1.6em
+                    margin: 30px 0 0 10px
+                span
+                    margin: 23px 0 0 10px
+                p   
+                    font-size: 1.2em
+                    margin: 23px 0 25px 10px
+
+    .contact 
+        .flex_row 
+            .flex-1, .flex-2
+                flex: 50%
+                max-width: 50%
+            .flex-2 
+                input#email, input#name
+                    width: 39%
+                    margin: 118px 0 0 0
+                input#title, textarea
+                    width: 89%
+
+// iPad/Tablet (Portrait) - Design Width = 768px
+// ========================================================
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait)
+
+    .contents
+        max-width: 750px
+
+    .banner
+        h2
+            margin: 150px 0 0 0
+
+    .blog 
+        .flex_row 
+            .flex 
+                p
+                    font-size: 1em
+
+// iPhone/Mobile (Landscape) - Design Width = 480px
+// ========================================================
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+
+    .contents
+        max-width: 650px
+
+    .banner
+        h2
+            margin: 100px 0 0 0
+
+    .numbers
+        .col-4
+            width: 100%
+        .col-1
+            img
+                margin: 50px
+        .col-2
+            p
+                margin: 50px 0 0 0 
+    
+    .quote
+        p
+            margin: 100px 0
+    
+    .customers 
+        .flex_row 
+            .flex 
+                img 
+                    @include height (50px)
+
+    .blog 
+        h2
+            margin: 50px 0 0 0
+        .flex_row 
+            .flex 
+                flex: 70%
+                max-width: 70%
+                margin: 10px auto 60px auto
+
+    .contact
+        p
+            margin: 40px 10px 39px 0
+        h4
+            margin: 70px 0 0 0
+        .flex_row 
+            .flex-1, .flex-2
+                flex: 100%
+                max-width: 100%
+                margin: 0 0 0 20px
+            .flex-2
+                input#name
+                    width: 89%
+                    margin: 40px 0 0 0
+                input#email
+                    width: 89%
+                    margin: 20px 0 0 0
+                input#title, textarea
+                    width: 89%
+
+// iPhone/Mobile (Portrait) - Design Width = 375px
+// ======================================================== 
+
+@media only screen and (min-width: 375px) and (max-width: 479px)
+
+    .contents
+            max-width: 390px
+
+    .background
+        @include height(460px)
+
+    .header
+        img
+            @include height(15px)
+            margin: 10px 160px
+        ul
+            padding: 0
+            padding-inline-start: 0px
+            margin: 30px 0 0 0
+            float: none
+            li
+                a
+                    letter-spacing: 2px
+                    padding: 0 13px
+    .banner
+        h1
+            font-size: 3.2em
+        h2
+            margin: 60px 0 0 0
+        i
+                margin: 60px 0 0 0 
+    .about
+        h1
+            font-size: 2.8em
+            margin: 60px 0 0 0
+        img
+            margin: 40px 0 60px 0
+
+    .numbers
+        padding: 20px 0
+        .col-4
+            width: 100%
+        .col-1
+            img
+                margin: 30px
+        .col-2
+            p
+                margin: 30px 0 0 -20px
+                font-size: 1.6em
+                letter-spacing: 2px
+
+    .projects
+        .text
+            h2
+                margin: 60px 0 40px
+        
+    .quote
+        p
+            margin: 80px 0
+            padding: 0 20px
+        
+    .customers 
+        .flex_row 
+            .flex 
+                img 
+                    @include height (30px)
+
+    .blog 
+        h2
+            margin: 50px 0 0 0
+        .flex_row 
+            .flex 
+                flex: 90%
+                max-width: 90%
+                margin: 10px auto 60px auto
+
+    .contact
+        p
+            margin: 40px 10px 39px 0
+        h4
+            margin: 70px 0 0 0
+        .flex_row 
+            .flex-1, .flex-2
+                flex: 90%
+                max-width: 90%
+                margin: 0 0 0 20px
+            .flex-2
+                input#name
+                    width: 89%
+                    margin: 40px 0 0 0
+                input#email
+                    width: 89%
+                    margin: 20px 0 0 0
+                input#title, textarea
+                    width: 89%
+
+// iPhone/Mobile (Portrait) - Design Width = 320px
+// ======================================================== 
+
+@media only screen and (min-width: 320px) and (max-width: 374px)
+
+    .background
+        @include height(460px)
+
+    .contents
+            max-width: 300px
+
+    .header
+        img
+            @include height(15px)
+            margin: 10px 127px
+        ul
+            padding: 0
+            padding-inline-start: 0px
+            margin: 10px 0 0 0
+            float: none
+            li
+                a
+                    letter-spacing: 2px
+                    padding: 0 8px
+                    font-size: 1.2em
+    .banner
+        h1
+            font-size: 3.2em
+        h2
+            margin: 60px 0 0 0
+        i
+            margin: 50px 0 0 0 
+            font-size: 3em
+    .about
+        h1
+            font-size: 2.2em
+            margin: 60px 0 0 0
+        img
+            margin: 40px 0 60px 0
+
+    .numbers
+        padding: 20px 0
+        .col-4
+            width: 100%
+        .col-1
+            img
+                margin: 20px
+        .col-2
+            p
+                margin: 10px 0 0 -20px
+                font-size: 1.3em
+                letter-spacing: 2px
+
+    .projects
+        .text
+            h2
+                margin: 50px 0 40px
+                font-size: 3.2em
+        
+    .quote
+        p
+            margin: 80px 0
+            padding: 0 20px
+        
+    .customers 
+        .flex_row 
+            .flex 
+                img 
+                    @include height (30px)
+
+    .blog 
+        h2
+            margin: 50px 0 0 0
+        .flex_row 
+            .flex 
+                flex: 90%
+                max-width: 90%
+                margin: 10px auto 60px auto
+                a
+                    font-size: 1.6em
+
+    .contact
+        h4
+            margin: 50px 0 0 0
+            font-size: 3.2em
+        p
+            margin: 40px 10px 39px 0
+        .flex_row 
+            .flex-1, .flex-2
+                flex: 90%
+                max-width: 90%
+                margin: 0 0 0 10px
+            .flex-2
+                input#name
+                    width: 89%
+                    margin: 40px 0 0 0
+                input#email
+                    width: 89%
+                    margin: 20px 0 0 0
+                input#title, textarea
+                    width: 89%

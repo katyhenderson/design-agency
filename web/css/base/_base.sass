@@ -1,0 +1,81 @@
+html, body 
+	background: $grey
+	min-width: 100%
+	min-height: 100%
+	width: 100%
+	height: auto
+	position: relative
+	margin: 0
+	padding: 0
+
+body 
+	font-family: $main-font
+	font-size: 10px /* See Font Chart Above */
+	color: $green
+	line-height: 1.3em
+	-webkit-overflow-scrolling: touch
+	-webkit-text-size-adjust: none
+	-ms-text-size-adjust: none
+	-webkit-font-smoothing: antialiased
+	-moz-font-smoothing: antialiased
+	-moz-osx-font-smoothing: grayscale
+	-ms-font-smoothing: antialiased
+	-o-font-smoothing: antialiased
+	font-smoothing: antialiased
+
+// LAYOUT STYLES
+
+.row   
+	width: 100%
+	@include height(auto)
+	position: relative
+	margin: 0
+	padding: 0
+	text-align: center
+	float: left
+	clear: both
+	/*overflow: hidden*/
+	z-index: 1
+
+.contents 
+	width: 100%
+	max-width: 1170px
+	@include height(auto)
+	position: relative
+	margin: 0 auto
+	padding: 0
+	/*overflow: hidden*/
+	clear: both
+	z-index: 1
+
+// COLUMNS
+
+// THREE COLUMNS 
+.three_col_one
+	width: 33.333333333%
+	@include height(auto)
+	position: relative
+	margin: 0
+	padding: 0
+	float: left
+	clear: both
+	z-index: 1
+	
+.three_col_two 
+	width: 33.333333333%
+	@include height(auto)
+	position: relative
+	margin: 0
+	padding: 0
+	float: left
+	z-index: 1
+	
+.three_col_three 
+	width: 33.333333333%
+	@include height(auto)
+	position: relative
+	margin: 0
+	padding: 0
+	float: left
+	z-index: 1
+	

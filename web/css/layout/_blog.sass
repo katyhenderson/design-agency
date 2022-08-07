@@ -1,0 +1,65 @@
+.blog
+    background: $aqua    
+    h2
+        font-family: $main-font
+        letter-spacing: 3px
+        color: $green
+        font-size: 3.8em
+        margin: 90px 0 0 0
+        line-height: 1.4em
+        padding: 0
+    p
+        font-family: $body-font
+        font-size: 1.5em
+        line-height: 1.4em
+        margin: 30px 0 55px 0
+        padding: 0
+    .flex_row
+        display: flex
+        flex-wrap: wrap
+        @include mar-pad
+        .flex 
+            background: $grey
+            flex: 31.3%
+            max-width: 31.3%
+            padding: 0
+            margin: 0 1% 170px 1%
+            text-align: left
+            box-shadow: 10px 5px 25px #525050
+            .caption
+                font-family: $main-font
+                color: $green
+                font-size: 1.2em
+                text-align: center
+                text-transform: uppercase
+                margin: -20px 0 0 0
+                padding: 0
+                width: 90px
+                height: auto
+                z-index: 10
+            a
+                font-family: $main-font
+                display: block
+                text-decoration: none
+                color: $green
+                font-size: 2em
+                margin: 30px 0 0 30px
+
+            span
+                font-family: $body-font
+                font-size: 1.2em
+                text-transform: uppercase
+                margin: 23px 0 0 30px
+                padding: 0
+                display: block
+            p
+                font-family: $body-font
+                font-size: 1.5em
+                margin: 23px 0 25px 30px
+                padding: 0
+        .flex img
+            margin: 0
+            vertical-align: middle
+            width: 100%
+            z-index: 5
+        

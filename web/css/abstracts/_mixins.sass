@@ -1,0 +1,28 @@
+@mixin box-sizing
+	-webkit-box-sizing: border-box
+	-moz-box-sizing: border-box
+	box-sizing: border-box
+
+@mixin height($h)
+	height: $h
+	min-height: $h
+
+@mixin radius($r)
+	-moz-border-radius: $r
+	-webkit-border-radius: $r
+	border-radius: $r
+
+@mixin transform($transforms) 
+	-webkit-transform: $transforms
+	-moz-transform: $transforms
+	-ms-transform: $transforms
+	transform: $transforms
+
+@mixin mar-pad
+	margin: 0
+	padding: 0
+
+@mixin form-text
+	font-family: $body-font
+	font-size: 1.3em
+	color: $green
